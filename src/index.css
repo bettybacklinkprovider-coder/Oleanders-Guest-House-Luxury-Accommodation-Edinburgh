@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --royal-purple: #351052;
+    --lavender: #76509B;
+    --light-purple: #F3EDF8;
+    --gold: #D6B879;
+    --dark-gold: #B89650;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F3EDF8;
+    color: #211132;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif-luxury {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom Luxury Utilities */
+.text-royal-purple { color: #351052; }
+.bg-royal-purple { background-color: #351052; }
+.border-royal-purple { border-color: #351052; }
+
+.text-lavender { color: #76509B; }
+.bg-lavender { background-color: #76509B; }
+.border-lavender { border-color: #76509B; }
+
+.text-light-purple { color: #F3EDF8; }
+.bg-light-purple { background-color: #F3EDF8; }
+
+.text-gold { color: #D6B879; }
+.bg-gold { background-color: #D6B879; }
+.border-gold { border-color: #D6B879; }
+
+.text-dark-gold { color: #B89650; }
+
+.bg-royal-gradient {
+  background: linear-gradient(135deg, #351052 0%, #200833 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 4px 25px -3px rgba(214, 184, 121, 0.3);
+}
+
+.purple-glow {
+  box-shadow: 0 10px 30px -5px rgba(53, 16, 82, 0.15);
+}
+

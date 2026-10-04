@@ -1,0 +1,6 @@
+{
+  "name": "Oleanders Guest House | Luxury Accommodation Edinburgh",
+  "description": "Welcome to Oleanders Guest House, a boutique luxury stay in Craigleith, Edinburgh. Experience Scottish hospitality, en-suite rooms, and convenient access to Edinburgh Castle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
